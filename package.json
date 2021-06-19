@@ -1,0 +1,22 @@
+{
+  "name": "lpg-rocket-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "lpg": "./bin/index.js"
+  },
+  "author": "Brian Alexis Almaguer",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "node-fetch": "^2.6.1",
+    "yargs": "^17.0.1"
+  }
+}
